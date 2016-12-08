@@ -7,7 +7,7 @@ var map = require('./map');
 /**
  * ap applies a list of functions to a list of values.
  *
- * Dispatches to the `ap` method of the second argument, if present. Also
+ * Dispatches to the `ap` method of the first argument, if present. Also
  * treats curried functions as applicatives.
  *
  * @func
